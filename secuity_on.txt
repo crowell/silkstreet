@@ -1,0 +1,4 @@
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      FILE
+[31mNo RELRO     [m   [31mNo canary found[m   [32mNX enabled [m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  silkstreet
+
+there must be ASLR ON on this machine. Otherwise there would be no need to leak the heap addresses
